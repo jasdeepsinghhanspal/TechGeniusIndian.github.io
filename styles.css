@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.subscribe-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff0000; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.subscribe-button:hover {
+    background-color: #d80000;
+    transform: scale(1.05);
+}
+.subscribe-button:focus {
+    outline: 2px solid #ff0000;
+    outline-offset: 2px;
+}
+#subscribe {
+    text-align: center;
+    margin: 40px 0;
+}
+
+header {
+    background: #dba810;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header button {
+    padding: 10px 20px;
+    background: #fff;
+    color: #dba810;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#about, #contact {
+    background: #f9f9f9;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course {
+    background: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact button {
+    background: #dba810;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
